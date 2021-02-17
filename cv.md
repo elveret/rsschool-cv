@@ -1,15 +1,19 @@
 # Lena Veret
 
-_[Email](mailto:lena.veret@gmail.com)_/ _[Github](https://github.com/elveret)_
+_[Email](mailto:lena.veret@gmail.com)_ / _[Github](https://github.com/elveret)_
 
 _Hi!  
 I'm **Lena**.
 Here is some information about me._
 
+---
+
 ## Languages
 
 **Russian**: Native  
 **English**: B1
+
+---
 
 ## My key skills
 
@@ -17,6 +21,8 @@ Here is some information about me._
 - HTML/CSS
 - Git
 - SQL
+
+---
 
 ## Education
 
