@@ -1,0 +1,157 @@
+/* Normalizing the styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+strong {
+  font-weight: bolder;
+}
+/* Making general styles */
+html,
+body {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+/* Base element's styles */
+h1::first-letter,
+h1:first-letter,
+h2::first-letter,
+h2:first-letter {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+}
+h1,
+h2 {
+  margin-bottom: 16px;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eaecef;
+  line-height: 1.25;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: #0366d6;
+}
+/* Line between thematic blocks */
+.line {
+  margin: 24px 0;
+  padding: 0;
+  border: 0;
+  height: 0.25em;
+  background-color: #e1e4e8;
+}
+/* Header wrappers */
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-size: 1em;
+}
+.header-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header-wrapper__text,
+.header-wrapper__avatar {
+  display: block;
+}
+.contacts-wrapper > em {
+  display: inline-block;
+}
+.header-wrapper__text > em {
+  display: block;
+}
+.contacts-wrapper {
+  text-transform: capitalize;
+  padding-bottom: 16px;
+}
+.header-wrapper__avatar {
+  display: block;
+  min-width: 50%;
+  height: auto;
+  padding-top: 16px;
+}
+/* Thematic blocks */
+.languages-wrapp {
+  list-style: none;
+}
+.skills-wrapp {
+  padding-left: 2em;
+  list-style-type: disc;
+}
+.skills li {
+  padding-bottom: 0.5em;
+}
+.education-wrapp p {
+  padding-bottom: 0.6em;
+}
+/* Media queries : Mobile-first */
+/* Desktop */
+@media (min-width: 991px) {
+  .wrapper {
+    width: 65%;
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .header-wrapper {
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-wrapper__text {
+    display: block;
+    width: 75%;
+    flex-basis: 75%;
+  }
+  .header-wrapper__avatar {
+    display: block;
+    min-width: 10%;
+    height: auto;
+    flex-basis: 15%;
+    padding: 16px 0;
+  }
+}
+/* Tablet PC */
+@media (min-width: 575px) and (max-width: 991px) {
+  .wrapper {
+    padding: 0 32px;
+  }
+  .header-wrapper {
+    margin: 0 auto;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-wrapper__text {
+    display: block;
+    max-width: 75%;
+    flex-basis: 80%;
+  }
+  .header-wrapper__avatar {
+    display: block;
+    min-width: 15%;
+    height: auto;
+    flex-basis: 20%;
+    padding: 16px 0;
+  }
+}
