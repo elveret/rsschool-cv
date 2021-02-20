@@ -1,1 +1,1 @@
-[CV](https://elveret.github.io/rsschool-cv/cv "RSSchool CV")
+[CV](https://elveret.github.io/rsschool-cv/ "RSSchool CV")
