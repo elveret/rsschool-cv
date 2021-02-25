@@ -96,6 +96,52 @@ a {
 .education-wrapp p {
   padding-bottom: 0.6em;
 }
+/* Footer wrappers */
+.footer-wrapper {
+  width: 100%;
+  margin: 0 auto 16px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-wrapper__copyright,
+.footer-wrapper__contacts {
+  min-width: 45%;
+}
+.footer-wrapper__copyright a,
+.footer-wrapper__copyright p,
+.footer-wrapper__contacts a {
+  display: inline-block;
+  color: #000;
+  height: 2em;
+}
+.footer-wrapper__copyrigh p,
+.footer-wrapper__copyrigh a {
+  margin-right: 15px;
+}
+.copyright:hover {
+  color: #0366d6;
+}
+.footer-wrapper__contacts {
+  list-style: none;
+  text-align: right;
+}
+.footer-wrapper__contacts a {
+  width: 30%;
+  margin-left: 10px;
+}
+.footer-link {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.rsschool {
+  background-image: url(../img/rs_school_js_icon.svg);
+}
+.youtube {
+  background-image: url(../img/youtube_icon.svg);
+}
+
 /* Media queries : Mobile-first */
 /* Desktop */
 @media (min-width: 991px) {
